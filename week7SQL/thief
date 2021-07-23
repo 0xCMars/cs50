@@ -1,0 +1,43 @@
+crime_scene_reports Table
+295 | 2020 | 7 | 28 | Chamberlin Street | Theft of the CS50 duck took place at 10:15am at the Chamberlin Street courthouse. Interviews were conducted today with three witnesses who were present at the time — each of their interview transcripts mentions the courthouse.
+
+Interviews Table
+161 | Ruth | 2020 | 7 | 28 | Sometime within ten minutes of the theft, I saw the thief get into a car in the courthouse parking lot and drive away. If you have security footage from the courthouse parking lot, you might want to look for cars that left the parking lot in that time frame.
+
+162 | Eugene | 2020 | 7 | 28 | I don't know the thief's name, but it was someone I recognized. Earlier this morning, before I arrived at the courthouse, I was walking by the ATM on Fifer Street and saw the thief there withdrawing some money.
+
+163 | Raymond | 2020 | 7 | 28 | As the thief was leaving the courthouse, they called someone who talked to them for less than a minute. In the call, I heard the thief say that they were planning to take the earliest flight out of Fiftyville tomorrow. The thief then asked the person on the other end of the phone to purchase the flight ticket.
+
+courthouse_security_logs Table
+id | year | month | day | hour | minute | activity | license_plate
+260 | 2020 | 7 | 28 | 10 | 16 | exit | 5P2BI95
+261 | 2020 | 7 | 28 | 10 | 18 | exit | 94KL13X
+262 | 2020 | 7 | 28 | 10 | 18 | exit | 6P58WS2
+263 | 2020 | 7 | 28 | 10 | 19 | exit | 4328GD8
+264 | 2020 | 7 | 28 | 10 | 20 | exit | G412CB7
+265 | 2020 | 7 | 28 | 10 | 21 | exit | L93JTIZ
+266 | 2020 | 7 | 28 | 10 | 23 | exit | 322W7JE
+267 | 2020 | 7 | 28 | 10 | 23 | exit | 0NTHK55
+
+atm_transactions
+id | account_number | year | month | day | atm_location | transaction_type | amount
+246 | 28500762 | 2020 | 7 | 28 | Fifer Street | withdraw | 48
+264 | 28296815 | 2020 | 7 | 28 | Fifer Street | withdraw | 20
+266 | 76054385 | 2020 | 7 | 28 | Fifer Street | withdraw | 60
+267 | 49610011 | 2020 | 7 | 28 | Fifer Street | withdraw | 50
+269 | 16153065 | 2020 | 7 | 28 | Fifer Street | withdraw | 80
+288 | 25506511 | 2020 | 7 | 28 | Fifer Street | withdraw | 20
+313 | 81061156 | 2020 | 7 | 28 | Fifer Street | withdraw | 30
+336 | 26013199 | 2020 | 7 | 28 | Fifer Street | withdraw | 35
+
+flights Table
+id | origin_airport_id | destination_airport_id | year | month | day | hour | minute
+36 | 8 | 4 | 2020 | 7 | 29 | 8 | 20
+43 | 8 | 1 | 2020 | 7 | 29 | 9 | 30
+23 | 8 | 11 | 2020 | 7 | 29 | 12 | 15
+53 | 8 | 9 | 2020 | 7 | 29 | 15 | 20
+18 | 8 | 6 | 2020 | 7 | 29 | 16 | 0
+
+suspects
+Danielle
+Ernest

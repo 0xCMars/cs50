@@ -1,0 +1,66 @@
+.index-self-descri {
+    background: #f9f9ff;
+    padding: 60px;
+}
+
+.index-project {
+    background:#fff;
+    background-size:cover;
+    padding:60px 10px;
+}
+
+.animation,.animation-2 {
+    opacity:0;
+}
+
+body footer {
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    background:#04091e;
+    padding:20px
+}
+body footer p {
+    margin-top:0px;
+    color:#fff
+}
+
+body footer a {
+
+}
+
+.social-network {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.social-networks a {
+    margin:0 10px;
+}
+
+.about-main {
+    padding:60px;
+    background:#f9f9ff;
+    height:100vh;
+}
+
+.project-main {
+    background:#f9f9ff;
+    height:100vh;
+    padding:60px 10px;
+}
+
+.projects h2 {
+    margin-bottom:40px;
+}
+
+.projects h3 {
+    margin-bottom:10px;
+}
+
+.contact-main {
+    background:#f9f9ff;
+    height:100vh;
+    padding:60px 10px;
+}

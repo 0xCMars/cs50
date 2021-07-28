@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <div class="section">
+        <h2>Stock Transaction Histroy</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Stock Name</th>
+                    <th>BuyorSell</th>
+                    <th>Stock prices when Buy or Sell</th>
+                    <th>Shares</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- TODO: Loop through the database entries to display them in this table -->
+                {% for stock in stockHistory %}
+                <tr>
+                    <td>{{ stock.company }}</td>
+                    <td>{{ stock.BuyorSell }}</td>
+                    <td>{{ stock.price | usd }}</td>
+                    <td>{{ stock.share}}</td>
+                    <td>{{ stock.date }}</td>
+                </tr>
+                {% endfor%}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
